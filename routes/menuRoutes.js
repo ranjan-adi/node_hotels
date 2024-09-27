@@ -27,5 +27,5 @@ router.get('/',async(req,res)=>{
         res.status(500).json({err:'Internal server error'})
     }
 })
-
+//commenting for git testing
 model.exports=router;
