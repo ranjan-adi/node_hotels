@@ -13,7 +13,7 @@ app.get('/',function(req,res){
 })
 
 
-const personRoutes=require('./routes/personRoutes');
+const personRoutes=require('./routes/personsRoutes');
 const menuRoutes=require('./routes/menuRoutes');
 
 app.use('/person',personRoutes);
