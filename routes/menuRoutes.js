@@ -1,6 +1,6 @@
-const express=required('express')
+const express=require('express')
 const router=express.Router();
-const menu=required('./../models/Menu')
+const menu=require('./../models/Menu')
 
 router.post('/',async(req,res)=>{
     try{
@@ -28,4 +28,4 @@ router.get('/',async(req,res)=>{
     }
 })
 //commenting for git testing
-model.exports=router;
+module.exports=router;
